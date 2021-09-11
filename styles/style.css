@@ -1,0 +1,290 @@
+:root {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    list-style: none;
+}
+
+.menu {
+    display: inline;
+   
+
+    
+}
+
+.menu ul {
+    padding: 20px 10px;
+    margin:0px;
+    background-color:#000;
+    list-style:none;
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+.menu ul li {
+    display: inline; 
+    
+}
+
+
+.menu ul li a {
+    padding: 2px 10px;
+    display: inline;
+    background-color:#000;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.menu ul li  a:hover {
+    color: #1ed760
+}
+
+.spy-img img{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    margin-left: 150px;
+    margin-right: 650px;
+  
+}
+
+.all {
+    background-color: rgb(180, 155, 200);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.meses {
+    display: flex; 
+    justify-content:center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 250px;
+}
+
+.meses h1 {
+    font-size: 40px;
+}
+
+.meses h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+}
+
+.meses h6 {
+    font: 10px;
+    font-weight: 100;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+}
+
+.botoes button:first-child {
+    width: 300px;
+    height: 50px;
+    border: 2px solid rgb(25, 20, 20);
+    border-radius: 500px;
+    background-color: #000;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.botoes button:last-child {
+   margin-left: 13px;
+   width: 200px;
+   height: 50px;
+   background-color: transparent;
+   color: black;
+   font-size: 16px;
+   text-transform: uppercase;
+   border-radius: 500px;
+   border: 2px solid white;
+   
+   
+}
+
+.botoes button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.flores img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    margin-right: 200px;
+}
+
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 24px;
+}
+
+.box-main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.box-main h1 {
+    text-align: center;
+    font-size: 21px;
+}
+
+.box-main p {
+    text-align: center;
+    font: 16px;
+}
+
+
+.boxing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boxxing {
+    
+    background-color: #efefef;
+}
+
+
+.box-main img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+}
+
+
+
+.boxx {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+
+
+.boxx-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+   
+}
+
+.boxx-one button {
+    width: 300px;
+    height: 60px;
+    background-color: #000;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+.boxx-two button {
+    width: 300px;
+    height: 60px;
+    background-color: #000;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+.boxx-tree button {
+    width: 300px;
+    height: 60px;
+    background-color: #000;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+.boxx-four button {
+    width: 300px;
+    height: 60px;
+    background-color: #000;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+.boxx-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+   
+}
+
+.boxx-tree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+   
+}
+
+.boxx-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+   
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #000;
+}
+
+.rodape img {
+    height: 50px;
+}
